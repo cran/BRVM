@@ -195,7 +195,7 @@ BRVM_stock_market <- function(.weekday){
         message("Make sure you have an active internet connection")
       },
       warning = function(w) {
-          message("Make sure you have an active internet connection")
+        message("Make sure you have an active internet connection")
       }
     )
 
